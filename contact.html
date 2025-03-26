@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nishanth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #0c1117;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        
+        header {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0c1117;
+            border-bottom: 1px solid #1e2a3a;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .nav-links {
+            display: flex;
+        }
+        
+        .nav-links a {
+            margin-left: 30px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #0d9efc;
+        }
+        
+
+        .contact-container {
+            padding: 80px 5%;
+            width:100%;
+        }
+        
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 50px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background-color: #0d9efc;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+        
+        .contact-info {
+            background-color: #151f2e;
+            padding: 30px;
+            border-radius: 10px;
+            width:100%;
+        }
+        
+        .contact-info h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #0d9efc;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(13, 158, 252, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: #0d9efc;
+            font-size: 20px;
+        }
+        
+        .contact-text h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .contact-text p {
+            color: #8b98a8;
+        }
+        a{
+            color: #8b98a8;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Nishanth</div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    </header>
+    
+        <h2 class="section-title">Contact Me</h2>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>51,Thottikara Street,Kanuvapet,Villianur,Puducherry-605110</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>nishanthganesan5@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p>+91 9894350018</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">🌐</div>
+                    <div class="contact-text">
+                        <h4>Linkedin</h4>
+                        <p><a href="https://www.linkedin.com/in/nishanth17">https://www.linkedin.com/in/nishanth17</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
