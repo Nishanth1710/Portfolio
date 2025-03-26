@@ -23,8 +23,6 @@ No installation is required. Simply open `index.html` in a web browser to view t
 - CSS (if applicable)
 - JavaScript (if applicable)
 
-## Screenshots
-![Portfolio Preview](1.png) *(Replace this with actual screenshots if available.)*
 
 ## Contributing
 If you wish to contribute, feel free to fork the repository and submit a pull request.
